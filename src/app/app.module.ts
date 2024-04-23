@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SamuraiComponent } from './components/samurai/samurai.component';
 import { HttpClientModule } from '@angular/common/http';
+import { Samurai2Component } from './components/samurai2/samurai2.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SamuraiComponent
+    SamuraiComponent,
+    Samurai2Component
   ],
   imports: [
     BrowserModule,
