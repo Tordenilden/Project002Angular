@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SamuraiComponent } from './components/samurai/samurai.component';
 import { HttpClientModule } from '@angular/common/http';
 import { Samurai2Component } from './components/samurai2/samurai2.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -18,7 +19,8 @@ import { Samurai2Component } from './components/samurai2/samurai2.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
